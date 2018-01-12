@@ -1,0 +1,317 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.googleapis.com/css?family=Oregano");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Salsa");
+
+
+$blue: rgba(26, 0, 244, 1);
+$blue_less: rgba(26, 0, 244, 2/3);
+
+$header_hl_fs: 2.5rem;
+
+$padding_small: 0.5rem;
+$padding_default: 1rem;
+$padding_large: 1.5rem;
+$padding_xlarge: 2rem;
+
+$shadow_default: 0.25rem 0.25rem 0.5rem gray;
+$shadow_center: 0 0 0.5rem black;
+$shadow_darker: 0.25rem 0.25rem 1rem black;
+
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.nav {
+    border-bottom: 2px solid $blue;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    &--scrolled {
+        background: white;
+        box-shadow: $shadow_default;
+    }
+
+    &__brand {
+        height: 3rem;
+    }
+
+    &__link {
+        color: $blue;
+        text-shadow: 0 0 1px gray;
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-bottom: 2px solid $blue;
+            color: $blue;
+        }
+
+        &--active {
+            border-bottom: 2px solid $blue;
+        }
+    }
+}
+
+.parallax {
+    margin: 5rem 0;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white no-repeat center center fixed;
+    background-size: cover;
+    box-shadow: inset $shadow_default;
+
+    &__container {
+        background: $blue_less;
+        color: white;
+        padding: 2rem 3rem;
+        font-size: 2rem;
+    }
+
+    &--first {
+        background-image: url("assets/img_01.jpg");
+        margin-top: 0;
+    }
+
+    &--after-aboutus {
+        background-image: url("assets/img_01.jpg");
+    }
+
+    &--after-trainer {
+        background-image: url("assets/img_01.jpg");
+    }
+
+    &--after-paare {
+        background-image: url("assets/img_01.jpg");
+    }
+}
+
+.aboutus {
+    position: relative;
+
+    &__spacer {
+        display: block;
+        margin-top: -4rem;
+        padding-bottom: 4rem;
+    }
+
+    &__hl-container {
+        position: absolute;
+        top: 6.5rem;
+        width: 100%;
+
+        &__headline {
+            background-color: $blue;
+            color: white;
+            box-shadow: $shadow_default;
+            text-align: right;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    &__container {
+        padding: 10rem 10rem 5rem;
+        box-shadow: $shadow_default;
+
+        &__img {
+            width: 100%;
+            box-shadow: $shadow_default;
+            margin-top: 2rem;
+        }
+
+        &__line {
+            border-top: 2px solid $blue;
+            margin: 2rem 0 1.5rem;
+        }
+
+        &__text {
+            line-height: 2rem;
+        }
+    }
+}
+
+.trainer {
+    position: relative;
+
+    &__spacer {
+        display: block;
+        margin-top: -4rem;
+        padding-bottom: 4rem;
+    }
+
+    &__hl-container {
+        position: absolute;
+        top: 6.5rem;
+        width: 100%;
+
+        &__headline {
+            background-color: $blue;
+            color: white;
+            box-shadow: $shadow_default;
+            text-align: right;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    &__container {
+        padding: 10rem 10rem 5rem;
+        box-shadow: $shadow_default;
+
+        &__img {
+            width: 80%;
+            box-shadow: $shadow_default;
+            margin-top: 2rem;
+        }
+
+        &__name {
+            font-weight: bold;
+            line-height: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        &__type {
+            line-height: 2rem;
+        }
+
+        &__line {
+            border-top: 1px solid $blue;
+        }
+
+        &__icon {
+            padding-bottom: 0.5rem;
+        }
+
+        &__text {
+            line-height: 2rem;
+        }
+    }
+}
+
+.paare {
+    position: relative;
+
+    &__hl-container {
+        position: absolute;
+        top: 6.5rem;
+        width: 100%;
+
+        &__headline {
+            background-color: $blue;
+            color: white;
+            box-shadow: $shadow_default;
+            text-align: right;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    &__container {
+        padding: 10rem 10rem 5rem;
+        box-shadow: $shadow_default;
+
+        &__img {
+            width: 80%;
+            box-shadow: $shadow_default;
+            margin-top: 2rem;
+        }
+
+        &__name {
+            font-weight: bold;
+            line-height: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        &__class {
+            line-height: 2rem;
+        }
+
+        &__line {
+            border-top: 1px solid $blue;
+        }
+
+        &__text {
+            line-height: 2rem;
+        }
+    }
+}
+
+.tanzpartner {
+    position: relative;
+
+    &__container {
+        padding: 10rem 10rem 5rem;
+        box-shadow: $shadow_default;
+
+        &__img {
+            width: 80%;
+            box-shadow: $shadow_default;
+            margin-top: 2rem;
+        }
+
+        &__name {
+            font-weight: bold;
+            line-height: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        &__type {
+            line-height: 2rem;
+        }
+
+        &__line {
+            border-top: 1px solid $blue;
+        }
+
+        &__icon {
+            padding-bottom: 0.5rem;
+        }
+
+        &__text {
+            line-height: 2rem;
+        }
+    }
+}
+
+.footer {
+    margin-top: 5rem;
+    background: $blue;
+    color: white;
+    box-shadow: $shadow_default;
+    padding: 1rem;
+
+    &__headline {
+        font-size: 1.2rem;
+    }
+
+    &__link {
+        color: white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+.post-footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    border-top: 1px solid white;
+}
