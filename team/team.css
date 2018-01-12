@@ -121,6 +121,10 @@ body {
 
 .paare {
   position: relative; }
+  .paare__spacer {
+    display: block;
+    margin-top: -4rem;
+    padding-bottom: 4rem; }
   .paare__hl-container {
     position: absolute;
     top: 6.5rem;
@@ -154,6 +158,23 @@ body {
 
 .tanzpartner {
   position: relative; }
+  .tanzpartner__spacer {
+    display: block;
+    margin-top: -4rem;
+    padding-bottom: 4rem; }
+  .tanzpartner__hl-container {
+    position: absolute;
+    top: 6.5rem;
+    width: 100%; }
+    .tanzpartner__hl-container__headline {
+      background-color: #1a00f4;
+      color: white;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray;
+      text-align: right;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
   .tanzpartner__container {
     padding: 10rem 10rem 5rem;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }

@@ -273,6 +273,8 @@
 
         <!-- FREIE TANZPARTNER -->
         <section class="tanzpartner">
+            <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="tanzpartner__spacer"> </span>
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 tanzpartner__container">
@@ -314,6 +316,16 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid tanzpartner__hl-container">
+                <div class="row">
+                    <div class="col-6 tanzpartner__hl-container__headline">
+                        <h1>
+                            Unsere Trainer
+                        </h1>
                     </div>
                 </div>
             </div>
