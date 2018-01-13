@@ -121,7 +121,7 @@
         </section>
 
         <!-- FOOTER -->
-        <section class="footer">
+        <section class="footer text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-4">
@@ -177,7 +177,7 @@
         </section>
 
         <!-- POST-FOOTER -->
-        <section class="post-footer">
+        <section class="post-footer text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
