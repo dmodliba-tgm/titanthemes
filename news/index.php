@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- own stylesheet -->
-        <link rel="stylesheet" href=<?= get_template_directory_uri() . "/index.css"; ?>>
+        <link rel="stylesheet" href=<?= get_template_directory_uri() . "/news.css"; ?>>
 
         <!-- Ajax CDN -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -35,13 +35,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav__link nav__link--active" href="http://localhost/projects/titandw.at">Home</a>
+                        <a class="nav-link nav__link" href="http://localhost/projects/titandw.at">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav__link" href="http://localhost/projects/titandw.at/team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav__link" href="http://localhost/projects/titandw.at/news">News</a>
+                        <a class="nav-link nav__link nav__link--active" href="http://localhost/projects/titandw.at/news">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav__link" href="http://localhost/projects/titandw.at/angebot">Angebot</a>
@@ -53,118 +53,67 @@
             </div>
         </nav>
 
-        <!-- VIREPORT -->
-        <section class="header">
-            <div class="header__image">
-                <div class="header__image__container">
-                    <p class="header__image__container__line">Wir sind Latein</p>
-                    <p class="header__image__container__line">Wir sind Standard</p>
-                    <p class="header__image__container__line">Wir sind Tanz</p>
-                </div>
-            </div>
-            <div class="header__button">
-                <div class="header__button__container">
-                    <a href="#intro" class="smoothScroll">
-                        <i class="fa fa-2x fa-chevron-down header__button__container__icon"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- VORSTELLUNG -->
-        <section class="introduction">
-            <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="team__spacer"> </span>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 introduction__container">
-                        <p class="introduction__container__text">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        </p>
-                        <img src=<?= get_template_directory_uri() . "/assets/img_02.jpg"; ?> class="introduction__container__img">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid introduction__hl-container">
-                <div class="row">
-                    <div class="col-6 introduction__hl-container__headline">
-                        <h1>
-                            Vorstellung
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- PARALLAX -->
         <section>
-            <div class="parallax parallax--after-intro">
-                <p class="parallax__container">
-                    Hier steht ein Slogan!
-                </p>
+            <div class="parallax parallax--first">
+
             </div>
         </section>
 
-        <!-- ANGEBOT OVERVIEW -->
-        <section class="angebot">
+        <section class="news">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="introduction__spacer"> </span>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-12 angebot__container">
-                        <div class="row">
-                            <div class="col-lg-4 angebot__container__sub">
-                                <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg"; ?> class="angebot__container__sub__img">
-                                <h2 class="angebot__container__sub__headline">
-                                    Latein
-                                </h2>
-                                <p class="angebot__container__sub__text">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                </p>
-                                <div class="text-center">
-                                    <a href="#" class="angebot__container__sub__link">Mehr erfahren</a>
-                                </div>
-                                <hr class="angebot__container__sub__line">
+                    <div class="col-12 news__container">
+                        <div class="row news__container__article">
+                            <div class="col-4">
+                                <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="news__container__article__img">
                             </div>
-
-                            <div class="col-lg-4 angebot__container__sub">
-                                <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg"; ?> class="angebot__container__sub__img">
-                                <h2 class="angebot__container__sub__headline">
-                                    Standard
+                            <div class="col-8">
+                                <h2>
+                                    Titel des Artikels
                                 </h2>
-                                <p class="angebot__container__sub__text">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ...
                                 </p>
                                 <div class="text-center">
-                                    <a href="#" class="angebot__container__sub__link">Mehr erfahren</a>
+                                    <a href="#" class="news__container__article__link">Mehr erfahren</a>
                                 </div>
-                                <hr class="angebot__container__sub__line">
                             </div>
+                            <div class="col-12">
+                                <hr class="news__container__article__line">
+                            </div>
+                        </div>
 
-                            <div class="col-lg-4 angebot__container__sub">
-                                <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg"; ?> class="angebot__container__sub__img">
-                                <h2 class="angebot__container__sub__headline">
-                                    Camps
+                        <div class="row news__container__article">
+                            <div class="col-4">
+                                <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="news__container__article__img">
+                            </div>
+                            <div class="col-8">
+                                <h2>
+                                    Titel des Artikels
                                 </h2>
-                                <p class="angebot__container__sub__text">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ...
                                 </p>
                                 <div class="text-center">
-                                    <a href="#" class="angebot__container__sub__link">Mehr erfahren</a>
+                                    <a href="#" class="news__container__article__link">Mehr erfahren</a>
                                 </div>
-                                <hr class="angebot__container__sub__line">
+                            </div>
+                            <div class="col-12">
+                                <hr class="news__container__article__line">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid angebot__hl-container">
+            <div class="container-fluid news__hl-container">
                 <div class="row">
-                    <div class="col-6 angebot__hl-container__headline">
+                    <div class="col-6 news__hl-container__headline">
                         <h1>
-                            Angebot
+                            News
                         </h1>
                     </div>
                 </div>
