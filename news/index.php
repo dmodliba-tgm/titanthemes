@@ -86,7 +86,7 @@
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ...
                                 </p>
                                 <div class="text-center">
-                                    <a href="#" class="news__container__article__link">Mehr erfahren</a>
+                                    <a href="http://localhost/projects/titandw.at/news/artikel" class="news__container__article__link">Mehr erfahren</a>
                                 </div>
                             </div>
                             <div class="col-12">
