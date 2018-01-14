@@ -1,0 +1,104 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.googleapis.com/css?family=Oregano");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Salsa");
+body {
+  font-family: 'Open Sans';
+  font-size: 16px; }
+
+.nav {
+  border-bottom: 2px solid #1a00f4;
+  background-color: rgba(255, 255, 255, 0.2); }
+  .nav__toggler {
+    height: 3.5rem; }
+    .nav__toggler__icon {
+      color: #1a00f4;
+      margin: auto 0; }
+  .nav--scrolled {
+    background: white;
+    box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+  .nav__brand {
+    height: 3rem; }
+  .nav__link {
+    color: #1a00f4;
+    text-shadow: 0 0 1px gray; }
+    .nav__link:hover, .nav__link:focus, .nav__link:active {
+      border-bottom: 2px solid #1a00f4;
+      color: #1a00f4; }
+    .nav__link--active {
+      border-bottom: 2px solid #1a00f4; }
+
+.artikel {
+  position: relative; }
+  .artikel__spacer {
+    display: block;
+    margin-top: -4rem;
+    padding-bottom: 4rem; }
+  .artikel__hl-container {
+    position: absolute;
+    top: 6.5rem;
+    width: 100%; }
+    .artikel__hl-container__headline {
+      background-color: #1a00f4;
+      color: white;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray;
+      text-align: right;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+  .artikel__container {
+    box-shadow: 0.25rem 0.25rem 0.5rem gray;
+    padding: 10rem 10rem 4rem; }
+    .artikel__container__img {
+      width: 100%;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    .artikel__container__line {
+      border-top: 2px solid #1a00f4;
+      margin: 2rem 0 1rem;
+      width: 100%; }
+    .artikel__container__text {
+      line-height: 2rem; }
+
+.parallax {
+  margin: 5rem 0;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: inset 0.25rem 0.25rem 0.5rem gray; }
+  .parallax__container {
+    background: rgba(26, 0, 244, 0.66667);
+    color: white;
+    padding: 2rem 3rem;
+    font-size: 2rem; }
+  .parallax--first {
+    background-image: url("assets/img_01.jpg");
+    margin-top: 0; }
+
+.footer {
+  margin-top: 5rem;
+  background: #1a00f4;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0.5rem gray;
+  padding: 1rem; }
+  .footer__headline {
+    font-size: 1.2rem; }
+  .footer__link {
+    color: white; }
+    .footer__link:hover, .footer__link:active, .footer__link:focus {
+      color: white;
+      text-decoration: underline; }
+
+.post-footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  border-top: 1px solid white; }
+
+/*# sourceMappingURL=artikel.css.map */
