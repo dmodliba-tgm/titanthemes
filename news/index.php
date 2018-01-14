@@ -68,6 +68,7 @@
             </div>
         </section>
 
+        <!-- NEWS -->
         <section class="news">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="introduction__spacer"> </span>
 
@@ -119,7 +120,7 @@
 
             <div class="container-fluid news__hl-container">
                 <div class="row">
-                    <div class="col-6 news__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 news__hl-container__headline">
                         <h1>
                             News
                         </h1>

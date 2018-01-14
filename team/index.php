@@ -86,7 +86,7 @@
 
             <div class="container-fluid aboutus__hl-container">
                 <div class="row">
-                    <div class="col-6 aboutus__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 aboutus__hl-container__headline">
                         <h1>
                             Das sind wir
                         </h1>
@@ -149,7 +149,7 @@
 
             <div class="container-fluid trainer__hl-container">
                 <div class="row">
-                    <div class="col-6 trainer__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 trainer__hl-container__headline">
                         <h1>
                             Unsere Trainer
                         </h1>
@@ -261,7 +261,7 @@
 
             <div class="container-fluid paare__hl-container">
                 <div class="row">
-                    <div class="col-6 paare__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 paare__hl-container__headline">
                         <h1>
                             Unsere Paare
                         </h1>
@@ -330,7 +330,7 @@
 
             <div class="container-fluid tanzpartner__hl-container">
                 <div class="row">
-                    <div class="col-6 tanzpartner__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 tanzpartner__hl-container__headline">
                         <h1>
                             Freie Tanzpartner
                         </h1>

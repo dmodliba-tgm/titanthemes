@@ -91,7 +91,7 @@
 
             <div class="container-fluid artikel__hl-container">
                 <div class="row">
-                    <div class="col-6 artikel__hl-container__headline">
+                    <div class="col-lg-6 col-md-8 col-sm-9 artikel__hl-container__headline">
                         <h1>
                             Hier steht der Titel
                         </h1>
