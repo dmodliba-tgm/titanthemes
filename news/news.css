@@ -9,6 +9,11 @@ body {
 .nav {
   border-bottom: 2px solid #1a00f4;
   background-color: rgba(255, 255, 255, 0.2); }
+  .nav__toggler {
+    height: 3.5rem; }
+    .nav__toggler__icon {
+      color: #1a00f4;
+      margin: auto 0; }
   .nav--scrolled {
     background: white;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }

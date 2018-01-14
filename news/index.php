@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- own stylesheet -->
-        <link rel="stylesheet" href=<?= get_template_directory_uri() . "/index.css"; ?>>
+        <link rel="stylesheet" href=<?= get_template_directory_uri() . "/news.css"; ?>>
 
         <!-- Smooth Scroll -->
         <script type="text/javascript" src=<?= get_template_directory_uri() . "/js/smoothscroll.js"; ?>></script>
@@ -33,8 +33,8 @@
 
         <!-- NAV -->
         <nav class="navbar navbar-toggleable-md fixed-top nav"><!-- .nav own class -->
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
+            <button class="navbar-toggler navbar-toggler-right nav__toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars nav__toggler__icon fa-lg"></i>
             </button>
             <a class="navbar-brand" href=<?= home_url();?>>
                 <img src=<?= get_template_directory_uri() . "/assets/logo_01.jpg"; ?> class="nav__brand">
