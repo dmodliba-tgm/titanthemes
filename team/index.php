@@ -324,7 +324,7 @@
                 <div class="row">
                     <div class="col-6 tanzpartner__hl-container__headline">
                         <h1>
-                            Unsere Trainer
+                            Freie Tanzpartner
                         </h1>
                     </div>
                 </div>
