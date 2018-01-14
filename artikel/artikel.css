@@ -52,6 +52,7 @@ body {
     padding: 10rem 10rem 4rem; }
     .artikel__container__img {
       width: 100%;
+      margin-top: 2rem;
       box-shadow: 0.25rem 0.25rem 0.5rem gray; }
     .artikel__container__line {
       border-top: 2px solid #1a00f4;
@@ -59,6 +60,14 @@ body {
       width: 100%; }
     .artikel__container__text {
       line-height: 2rem; }
+    .artikel__container__back {
+      background: #1a00f4;
+      color: white;
+      padding: 0.5rem 1rem; }
+      .artikel__container__back:hover, .artikel__container__back:focus, .artikel__container__back:active {
+        color: white;
+        text-decoration: none;
+        box-shadow: 0.25rem 0.25rem 0.5rem gray; }
 
 .parallax {
   margin: 5rem 0;

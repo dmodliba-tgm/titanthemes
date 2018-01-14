@@ -95,6 +95,7 @@ body {
 
         &__img {
             width: 100%;
+            margin-top: 2rem;
             box-shadow: $shadow_default;
         }
 
@@ -106,6 +107,20 @@ body {
 
         &__text {
             line-height: 2rem;
+        }
+
+        &__back {
+            background: $blue;
+            color: white;
+            padding: 0.5rem 1rem;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: white;
+                text-decoration: none;
+                box-shadow: $shadow_default;
+            }
         }
     }
 }
