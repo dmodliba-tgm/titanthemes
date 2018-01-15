@@ -69,7 +69,7 @@
         </section>
 
         <!-- ABOUT US -->
-        <section class="aboutus">
+        <section class="aboutus" id="aboutus">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="aboutus__spacer"> </span>
 
             <div class="container">
@@ -105,7 +105,7 @@
         </section>
 
         <!-- TRAINER -->
-        <section class="trainer">
+        <section class="trainer" id="trainer">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="trainer__spacer"> </span>
 
             <div class="container">
@@ -168,7 +168,7 @@
         </section>
 
         <!-- PAARE -->
-        <section class="paare">
+        <section class="paare" id="paare">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="paare__spacer"> </span>
 
             <div class="container">
@@ -280,7 +280,7 @@
         </section>
 
         <!-- FREIE TANZPARTNER -->
-        <section class="tanzpartner">
+        <section class="tanzpartner" id="tanzpartner">
             <span style="display: block; margin-top: -4rem; padding-bottom: 4rem;" id="intro" class="tanzpartner__spacer"> </span>
 
             <div class="container">

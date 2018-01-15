@@ -108,28 +108,31 @@
                         <p class="footer__headline">
                             Der Verein
                         </p>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at" class="footer__link">
                             Home
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at/team#aboutus" class="footer__link">
                             Über Uns
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at/team#trainer" class="footer__link">
                             Trainer
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at/team#paare" class="footer__link">
                             Paare
+                        </a><br>
+                        <a href="http://localhost/projects/titandw.at/team#tanzpartner" class="footer__link">
+                            Freie Tanzpartner
                         </a><br>
                     </div>
                     <div class="col-md-4">
                         <p class="footer__headline footer__headline--pad-top">
                             Informationen
                         </p>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at/news" class="footer__link">
                             News
                         </a><br>
-                        <a href="#" class="footer__link">
-                            Angebot & Preise
+                        <a href="http://localhost/projects/titandw.at/angebot" class="footer__link">
+                            Angebot
                         </a><br>
                         <a href="#" class="footer__link">
                             Turnierplan - national
@@ -145,7 +148,7 @@
                         <a href="#" class="footer__link">
                             Impressum
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href="http://localhost/projects/titandw.at/kontakt" class="footer__link">
                             Kontakt
                         </a><br>
                         <a href="#" class="footer__link">
