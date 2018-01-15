@@ -112,7 +112,7 @@
                 <div class="row">
                     <div class="col-12 trainer__container">
                         <div class="row">
-                            <div class="col-4 text-center">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="trainer__container__img">
                                 <p class="trainer__container__name">
                                     Max Mustertrainer
@@ -127,7 +127,7 @@
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
                                 </p>
                             </div>
-                            <div class="col-4 text-center">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="trainer__container__img">
                                 <p class="trainer__container__name">
                                     Max Mustertrainer
@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col-12 paare__container">
                         <div class="row text-center">
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="paare__container__img">
                                 <p class="paare__container__name">
                                     Gustav Maria<br>
@@ -191,7 +191,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="paare__container__img">
                                 <p class="paare__container__name">
                                     Gustav Maria<br>
@@ -207,7 +207,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="paare__container__img">
                                 <p class="paare__container__name">
                                     Gustav Maria<br>
@@ -223,7 +223,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="paare__container__img ">
                                 <p class="paare__container__name">
                                     Gustav Maria<br>
@@ -239,7 +239,7 @@
                                 </p>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="paare__container__img ">
                                 <p class="paare__container__name">
                                     Gustav Maria<br>
@@ -287,10 +287,13 @@
                 <div class="row">
                     <div class="col-12 tanzpartner__container">
                         <div class="row text-center">
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="tanzpartner__container__img">
                                 <p class="tanzpartner__container__name">
                                     Matthias Müller
+                                </p>
+                                <p class="tanzpartner__container__class">
+                                    Standard (C)
                                 </p>
                                 <hr class="tanzpartner__container__line">
                                 <i class="fa fa-envelope fa-lg tanzpartner__container__icon"></i><br> matthias.mueller@gmail.com
@@ -299,10 +302,13 @@
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
                                 </p>
                             </div>
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="tanzpartner__container__img">
                                 <p class="tanzpartner__container__name">
                                     Matthias Müller
+                                </p>
+                                <p class="tanzpartner__container__class">
+                                    Standard (C)
                                 </p>
                                 <hr class="tanzpartner__container__line">
                                 <i class="fa fa-envelope fa-lg tanzpartner__container__icon"></i><br> matthias.mueller@gmail.com
@@ -311,10 +317,13 @@
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
                                 </p>
                             </div>
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="tanzpartner__container__img">
                                 <p class="tanzpartner__container__name">
                                     Matthias Müller
+                                </p>
+                                <p class="tanzpartner__container__class">
+                                    Standard (C)
                                 </p>
                                 <hr class="tanzpartner__container__line">
                                 <i class="fa fa-envelope fa-lg tanzpartner__container__icon"></i><br> matthias.mueller@gmail.com

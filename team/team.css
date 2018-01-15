@@ -63,6 +63,9 @@ body {
     position: absolute;
     top: 6.5rem;
     width: 100%; }
+    @media (max-width: 575px) {
+      .aboutus__hl-container {
+        width: 90%; } }
     .aboutus__hl-container__headline {
       background-color: #1a00f4;
       color: white;
@@ -75,6 +78,15 @@ body {
   .aboutus__container {
     padding: 10rem 10rem 5rem;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    @media (max-width: 991px) {
+      .aboutus__container {
+        padding: 10rem 7rem 5rem; } }
+    @media (max-width: 767px) {
+      .aboutus__container {
+        padding: 10rem 6rem 5rem; } }
+    @media (max-width: 575px) {
+      .aboutus__container {
+        padding: 10rem 5rem 4rem; } }
     .aboutus__container__img {
       width: 100%;
       box-shadow: 0.25rem 0.25rem 0.5rem gray;
@@ -95,6 +107,9 @@ body {
     position: absolute;
     top: 6.5rem;
     width: 100%; }
+    @media (max-width: 575px) {
+      .trainer__hl-container {
+        width: 90%; } }
     .trainer__hl-container__headline {
       background-color: #1a00f4;
       color: white;
@@ -107,6 +122,15 @@ body {
   .trainer__container {
     padding: 10rem 10rem 5rem;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    @media (max-width: 991px) {
+      .trainer__container {
+        padding: 10rem 7rem 5rem; } }
+    @media (max-width: 767px) {
+      .trainer__container {
+        padding: 10rem 6rem 5rem; } }
+    @media (max-width: 575px) {
+      .trainer__container {
+        padding: 10rem 5rem 4rem; } }
     .trainer__container__img {
       width: 80%;
       box-shadow: 0.25rem 0.25rem 0.5rem gray;
@@ -134,6 +158,9 @@ body {
     position: absolute;
     top: 6.5rem;
     width: 100%; }
+    @media (max-width: 575px) {
+      .paare__hl-container {
+        width: 90%; } }
     .paare__hl-container__headline {
       background-color: #1a00f4;
       color: white;
@@ -146,6 +173,15 @@ body {
   .paare__container {
     padding: 10rem 10rem 5rem;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    @media (max-width: 991px) {
+      .paare__container {
+        padding: 10rem 7rem 5rem; } }
+    @media (max-width: 767px) {
+      .paare__container {
+        padding: 10rem 6rem 5rem; } }
+    @media (max-width: 575px) {
+      .paare__container {
+        padding: 10rem 5rem 4rem; } }
     .paare__container__img {
       width: 80%;
       box-shadow: 0.25rem 0.25rem 0.5rem gray;
@@ -171,6 +207,9 @@ body {
     position: absolute;
     top: 6.5rem;
     width: 100%; }
+    @media (max-width: 575px) {
+      .tanzpartner__hl-container {
+        width: 90%; } }
     .tanzpartner__hl-container__headline {
       background-color: #1a00f4;
       color: white;
@@ -183,6 +222,15 @@ body {
   .tanzpartner__container {
     padding: 10rem 10rem 5rem;
     box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    @media (max-width: 991px) {
+      .tanzpartner__container {
+        padding: 10rem 7rem 5rem; } }
+    @media (max-width: 767px) {
+      .tanzpartner__container {
+        padding: 10rem 6rem 5rem; } }
+    @media (max-width: 575px) {
+      .tanzpartner__container {
+        padding: 10rem 5rem 4rem; } }
     .tanzpartner__container__img {
       width: 80%;
       box-shadow: 0.25rem 0.25rem 0.5rem gray;
@@ -191,7 +239,7 @@ body {
       font-weight: bold;
       line-height: 2rem;
       padding-top: 0.5rem; }
-    .tanzpartner__container__type {
+    .tanzpartner__container__class {
       line-height: 2rem; }
     .tanzpartner__container__line {
       border-top: 1px solid #1a00f4; }

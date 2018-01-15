@@ -18,6 +18,9 @@ $shadow_default: 0.25rem 0.25rem 0.5rem gray;
 $shadow_center: 0 0 0.5rem black;
 $shadow_darker: 0.25rem 0.25rem 1rem black;
 
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
 
 body {
     font-family: 'Open Sans';
@@ -113,6 +116,10 @@ body {
         top: 6.5rem;
         width: 100%;
 
+        @media (max-width: $xs) {
+            width: 90%;
+        }
+
         &__headline {
             background-color: $blue;
             color: white;
@@ -128,6 +135,16 @@ body {
     &__container {
         padding: 10rem 10rem 5rem;
         box-shadow: $shadow_default;
+
+        @media (max-width: $md) {
+            padding: 10rem 7rem 5rem;
+        }
+        @media (max-width: $sm) {
+            padding: 10rem 6rem 5rem;
+        }
+        @media (max-width: $xs) {
+            padding: 10rem 5rem 4rem;
+        }
 
         &__img {
             width: 100%;
@@ -160,6 +177,10 @@ body {
         top: 6.5rem;
         width: 100%;
 
+        @media (max-width: $xs) {
+            width: 90%;
+        }
+
         &__headline {
             background-color: $blue;
             color: white;
@@ -175,6 +196,16 @@ body {
     &__container {
         padding: 10rem 10rem 5rem;
         box-shadow: $shadow_default;
+
+        @media (max-width: $md) {
+            padding: 10rem 7rem 5rem;
+        }
+        @media (max-width: $sm) {
+            padding: 10rem 6rem 5rem;
+        }
+        @media (max-width: $xs) {
+            padding: 10rem 5rem 4rem;
+        }
 
         &__img {
             width: 80%;
@@ -220,6 +251,10 @@ body {
         top: 6.5rem;
         width: 100%;
 
+        @media (max-width: $xs) {
+            width: 90%;
+        }
+
         &__headline {
             background-color: $blue;
             color: white;
@@ -235,6 +270,16 @@ body {
     &__container {
         padding: 10rem 10rem 5rem;
         box-shadow: $shadow_default;
+
+        @media (max-width: $md) {
+            padding: 10rem 7rem 5rem;
+        }
+        @media (max-width: $sm) {
+            padding: 10rem 6rem 5rem;
+        }
+        @media (max-width: $xs) {
+            padding: 10rem 5rem 4rem;
+        }
 
         &__img {
             width: 80%;
@@ -276,6 +321,10 @@ body {
         top: 6.5rem;
         width: 100%;
 
+        @media (max-width: $xs) {
+            width: 90%;
+        }
+
         &__headline {
             background-color: $blue;
             color: white;
@@ -292,6 +341,16 @@ body {
         padding: 10rem 10rem 5rem;
         box-shadow: $shadow_default;
 
+        @media (max-width: $md) {
+            padding: 10rem 7rem 5rem;
+        }
+        @media (max-width: $sm) {
+            padding: 10rem 6rem 5rem;
+        }
+        @media (max-width: $xs) {
+            padding: 10rem 5rem 4rem;
+        }
+
         &__img {
             width: 80%;
             box-shadow: $shadow_default;
@@ -304,7 +363,7 @@ body {
             padding-top: 0.5rem;
         }
 
-        &__type {
+        &__class {
             line-height: 2rem;
         }
 
