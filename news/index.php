@@ -76,14 +76,14 @@
                 <div class="row">
                     <div class="col-12 news__container">
                         <div class="row news__container__article">
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-5">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="news__container__article__img">
                             </div>
-                            <div class="col-8">
-                                <h2>
+                            <div class="col-lg-8 col-md-7">
+                                <h2 class="news__container__article__title">
                                     Titel des Artikels
                                 </h2>
-                                <p>
+                                <p class="news__container__article__text">
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ...
                                 </p>
                                 <div class="text-center">
@@ -96,14 +96,14 @@
                         </div>
 
                         <div class="row news__container__article">
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-5">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="news__container__article__img">
                             </div>
-                            <div class="col-8">
-                                <h2>
+                            <div class="col-lg-8 col-md-7">
+                                <h2 class="news__container__article__title">
                                     Titel des Artikels
                                 </h2>
-                                <p>
+                                <p class="news__container__article__text">
                                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ...
                                 </p>
                                 <div class="text-center">
@@ -133,7 +133,7 @@
         <section class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <p class="footer__headline">
                             Der Verein
                         </p>
@@ -150,8 +150,8 @@
                             Paare
                         </a><br>
                     </div>
-                    <div class="col-4">
-                        <p class="footer__headline">
+                    <div class="col-md-4">
+                        <p class="footer__headline footer__headline--pad-top">
                             Informationen
                         </p>
                         <a href="#" class="footer__link">
@@ -167,8 +167,8 @@
                             Turnierplan - internationale
                         </a><br>
                     </div>
-                    <div class="col-4">
-                        <p class="footer__headline">
+                    <div class="col-md-4">
+                        <p class="footer__headline footer__headline--pad-top">
                             Details
                         </p>
                         <a href="#" class="footer__link">

@@ -18,6 +18,10 @@ $shadow_default: 0.25rem 0.25rem 0.5rem gray;
 $shadow_center: 0 0 0.5rem black;
 $shadow_darker: 0.25rem 0.25rem 1rem black;
 
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
 
 body {
     font-family: 'Open Sans';
@@ -77,6 +81,10 @@ body {
         top: 6.5rem;
         width: 100%;
 
+        @media (max-width: $xs) {
+            width: 90%;
+        }
+
         &__headline {
             background-color: $blue;
             color: white;
@@ -93,12 +101,34 @@ body {
         box-shadow: $shadow_default;
         padding: 10rem 10rem 4rem;
 
+        @media (max-width: $md) {
+            padding: 10rem 7rem 5rem;
+        }
+        @media (max-width: $sm) {
+            padding: 10rem 6rem 5rem;
+        }
+        @media (max-width: $xs) {
+            padding: 10rem 5rem 4rem;
+        }
+
         &__article {
             padding-top: 2rem;
 
             &__img {
                 width: 90%;
                 box-shadow: $shadow_default;
+            }
+
+            &__title {
+                padding-top: 1.5rem;
+
+                @media (min-width: $sm) {
+                    padding-top: 0;
+                }
+            }
+
+            &__text {
+                line-height: 2rem;
             }
 
             &__link {
@@ -158,6 +188,12 @@ body {
 
     &__headline {
         font-size: 1.2rem;
+
+        &--pad-top {
+            @media (max-width: $sm){
+                padding-top: 2rem;
+            }
+        }
     }
 
     &__link {
