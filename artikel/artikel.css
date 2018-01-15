@@ -38,6 +38,9 @@ body {
     position: absolute;
     top: 6.5rem;
     width: 100%; }
+    @media (max-width: 575px) {
+      .artikel__hl-container {
+        width: 90%; } }
     .artikel__hl-container__headline {
       background-color: #1a00f4;
       color: white;
@@ -50,6 +53,15 @@ body {
   .artikel__container {
     box-shadow: 0.25rem 0.25rem 0.5rem gray;
     padding: 10rem 10rem 4rem; }
+    @media (max-width: 991px) {
+      .artikel__container {
+        padding: 10rem 7rem 5rem; } }
+    @media (max-width: 767px) {
+      .artikel__container {
+        padding: 10rem 6rem 5rem; } }
+    @media (max-width: 575px) {
+      .artikel__container {
+        padding: 10rem 5rem 4rem; } }
     .artikel__container__img {
       width: 100%;
       margin-top: 2rem;
@@ -96,6 +108,9 @@ body {
   padding: 1rem; }
   .footer__headline {
     font-size: 1.2rem; }
+    @media (max-width: 767px) {
+      .footer__headline--pad-top {
+        padding-top: 2rem; } }
   .footer__link {
     color: white; }
     .footer__link:hover, .footer__link:active, .footer__link:focus {

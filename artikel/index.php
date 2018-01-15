@@ -104,7 +104,7 @@
         <section class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <p class="footer__headline">
                             Der Verein
                         </p>
@@ -121,8 +121,8 @@
                             Paare
                         </a><br>
                     </div>
-                    <div class="col-4">
-                        <p class="footer__headline">
+                    <div class="col-md-4">
+                        <p class="footer__headline footer__headline--pad-top">
                             Informationen
                         </p>
                         <a href="#" class="footer__link">
@@ -138,8 +138,8 @@
                             Turnierplan - internationale
                         </a><br>
                     </div>
-                    <div class="col-4">
-                        <p class="footer__headline">
+                    <div class="col-md-4">
+                        <p class="footer__headline footer__headline--pad-top">
                             Details
                         </p>
                         <a href="#" class="footer__link">
