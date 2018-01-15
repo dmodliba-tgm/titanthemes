@@ -115,7 +115,7 @@
                             <div class="col-xl-4 col-md-6 text-center">
                                 <img src=<?= get_template_directory_uri() . "/assets/img_03.jpg" ?> class="trainer__container__img">
                                 <p class="trainer__container__name">
-                                    Max Mustertrainer
+                                    <?php echo get_field('trainername1'); ?>
                                 </p>
                                 <p class="trainer__container__type">
                                     Standard, Latein
